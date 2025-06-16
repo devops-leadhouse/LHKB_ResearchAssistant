@@ -1,0 +1,503 @@
+﻿Genesis Engine Deep Dive: The Founder's Execution Toolkit for Pre-PMF Validation
+Introduction: From 'What' to 'How'
+
+
+The strategic frameworks employed by elite venture capitalists and market analysts—go-to-market strategy, product-market fit, brand narratives—provide an essential high-level map for company building. However, for a resource-constrained founder, this map often lacks the turn-by-turn directions needed to navigate the treacherous early stages of a startup. Knowing what to do is not the same as knowing how to do it. This toolkit is designed to bridge that critical gap. Its strategic objective is to deconstruct and codify the specific, tactical, and low-budget execution methods used by elite practitioners for early-stage customer and market validation. It moves beyond abstract theory to provide actionable playbooks that a founder can implement immediately with minimal resources.
+The toolkit is organized into two parts. Part 1, The Qualitative Validation Engine, focuses on mastering the art of the customer conversation to uncover the deep, human problems that are worth solving. Part 2, The Quantitative Validation Engine, provides lean, data-driven playbooks to test product hypotheses and measure real-world demand before committing significant capital. Together, these modules form a comprehensive system for de-risking a new venture from its earliest moments.
+
+
+Part 1: The Qualitative Validation Engine: Mastering Customer Conversations
+
+
+This section deconstructs the art of talking to customers to uncover what they truly need, not what they say they want. The playbooks here are designed to extract unbiased, high-fidelity information that forms the bedrock of a successful product.
+
+
+Playbook 1.1: The Jobs to Be Done (JTBD) Interview Deep Dive
+
+
+
+
+Core Principle: People "Hire" Products to Make Progress
+
+
+The foundational premise of Jobs to Be Done (JTBD) theory is that customers do not simply buy products; they "hire" them to make progress in a specific circumstance.1 This perspective, first popularized by Clayton Christensen, reframes the unit of analysis from the customer or the product to the "job" the customer is trying to accomplish.3 A "job" is not merely a task but the progress a person is trying to achieve, a process that encompasses functional, social, and emotional dimensions.3 For example, a person doesn't buy a drill because they want a drill; they buy a drill because they want a hole in the wall to hang a picture, which in turn helps them make their new apartment feel like home. This focus on the "underlying process" and desired outcomes, a concept operationalized by Tony Ulwick, allows innovators to move beyond surface-level features and understand the true purpose a product serves.6
+The catalyst for a customer to seek a new solution is almost always a "struggling moment".7 This is the point in time when their existing solution or workaround is no longer adequate, creating a specific pain that pushes them to look for something new.9 The work of practitioners like Bob Moesta and Chris Spiek highlights that the entire purpose of a JTBD interview is to forensically reconstruct the story of this struggle.7 The goal is to uncover the causal forces that drove the customer to "fire" their old solution and "hire" a new one.8
+
+
+The Interview Timeline: Reconstructing the Purchase Story
+
+
+The JTBD interview is not a survey; it is an investigation structured like a documentary.10 The objective is to build a precise timeline of the events and emotions that led to a purchase.
+* Step 1: Start at the Purchase. Anchor the conversation in concrete reality by starting with the purchase itself. This avoids hypotheticals and grounds the discussion in facts. Ask specific, detail-oriented questions: "When exactly did you buy the new mattress?" "Was it a Saturday or a Sunday?" "What else was in your shopping cart at Costco that day?".10
+* Step 2: Work Backwards to the "First Thought." From the point of purchase, rewind the narrative. The key question is, "When did you first start thinking you might need a new mattress?".10 This question begins to unearth the origins of the struggling moment.
+* Step 3: Explore the "Passively Looking" Phase. Before actively shopping, customers often endure a problem for a significant period. Explore this phase by asking about their workarounds and the inertia that kept them from acting sooner. Questions like, "It sounds like you knew the old mattress was a problem for a while. What kept you from looking for a new one sooner?" can reveal the forces of habit at play.11
+* Step 4: Identify the "Actively Looking" Trigger. A specific event often pushes a customer from passive awareness to active searching. What was the trigger? Was it a particularly bad night's sleep? A comment from a spouse? Pinpointing this event is critical to understanding the escalation of the struggle.11
+* Step 5: Detail the "Hiring Criteria" and Consideration Set. Once the customer started looking, what solutions did they consider? What were the most important criteria they used to evaluate their options? This reveals what progress looked like in their mind.9
+* Step 6: The Post-Purchase Experience. Finally, explore their experience after the purchase. Ask, "What was it like sleeping on the new mattress for the first time?" This helps determine if the new solution successfully delivered the progress they were seeking.11
+
+
+Uncovering the Four Forces of Progress: The 'Why' Behind the Switch
+
+
+Every purchase decision is a battle between four competing forces. A successful JTBD interview uncovers each of these forces to understand why a customer chose to switch.3 The table below outlines these forces and provides tactical question patterns to reveal them during an interview.
+Force
+	Description
+	Question Patterns & Probing Techniques
+	Example from Mattress Interview 10
+	Push (of the situation)
+	Frustrations and pain points with the current situation that push the customer to seek change.
+	"Tell me about the last time you used [old solution]. What was that experience like?" "What was so frustrating about that, that made you think, 'I have to do something different'?" "Walk me through what wasn't working."
+	"When did you start to say it was the mattress?" "Were you complaining to your wife about this?"
+	Pull (of the new solution)
+	The appeal, benefits, and promise of the new solution that attract the customer.
+	"What did you hope would be different with the new solution?" "What about [new solution] caught your attention?" "What did you imagine your life would be like once you had this?"
+	"What got me was the ability to at least touch and feel it a little bit... I wanted to try something radically different."
+	Anxiety (of the new solution)
+	Fears, uncertainties, and concerns about switching to a new solution.
+	"What were your biggest concerns before you committed?" "What was the hardest part about making the decision?" "What almost stopped you from buying it?"
+	"I felt very concerned about if I have a bad experience about this, do I want to go the Groupon, online route versus getting it at the Costco...?"
+	Habit (allegiance to the old)
+	The inertia, switching costs, and comfort with the current solution that resist change.
+	"You mentioned you'd been dealing with this for a while. What kept you from looking for a solution sooner?" "What did you have to give up from your old way of doing things?"
+	"Why did you wait so long to get a mattress?" "Wait, you didn’t throw it out?"
+	
+
+The Job Story Framework in Practice
+
+
+The insights from a JTBD interview must be translated into a format that is actionable for product and design teams. The "Job Story" framework, popularized by Intercom, is a powerful tool for this purpose.11 It shifts the focus from user personas and attributes to causality and motivation.
+* Structure: The format is simple yet powerful: When, I want to, so I can..13
+   * When: This describes the context or triggering situation.
+   * I want to: This describes the motivation or the goal.
+   * So I can: This describes the desired outcome or progress.
+* Examples:
+   * Intercom's B2B Example 13:
+"When I'm managing the Support team, I want to know if our workload is increasing and at what rate, so I can scale the support team up or down accordingly."
+   * Hypothetical from Mattress Interview: "When I'm traveling for work and sleeping better in hotels than at home, I want to replicate that high-quality sleep experience, so I can be less cranky and more present with my family."
+For B2B software, where the purchase decision is often complex and involves multiple stakeholders, the interview questions must be adapted to uncover the organizational struggle. Intercom's approach includes questions like:
+   * "What tool were you using before you bought our software?" 13
+   * "Who made the decision to switch, and what was their role?" 13
+   * "What was it like working in your department back then?" 13
+These questions help reconstruct the timeline of the organizational "struggling moment" that led to hiring a new software solution.
+
+
+Playbook 1.2: The Mom Test Field Manual for Brutal Honesty
+
+
+
+
+Core Principle: Your Job is to Find the Truth, Not Get Validation
+
+
+The biggest trap for a founder is to build something nobody wants.14 The Mom Test, developed by Rob Fitzpatrick, is a set of rules for customer conversations designed to prevent this by extracting brutal, unbiased honesty.14 The core principle is that most people, especially those who care about you like your mom, will lie to protect your feelings and avoid discomfort.14 Therefore, you must engineer your questions to make it impossible for them to give you misleading answers. The goal is to collect hard facts about their lives, problems, and past behaviors, not to solicit compliments or opinions about your idea.14
+A founder's desperation for validation often leads them to ask leading questions ("Isn't this a great idea?") that generate what Fitzpatrick calls "fool's gold"—compliments that are shiny, distracting, and ultimately worthless.16 The Mom Test forces a critical mindset shift from seeking approval to searching for truth.14 The real purpose of these conversations is to de-risk your venture by discovering if a problem is significant enough that people have already invested time, money, or social capital in trying to solve it. If they haven't, your idea is likely not viable.16
+The three rules of The Mom Test are 14:
+   1. Talk about their life, not your idea.
+   2. Ask about specifics in the past, not hypotheticals about the future.
+   3. Listen more, talk less.
+
+
+The Bad Question / Good Question Cheat Sheet
+
+
+This table provides a systematic guide for transforming common, ineffective questions into powerful, fact-finding queries. It is a founder's primary tool for avoiding bad data.
+Bad Question Type
+	Bad Question Example
+	Why It's Bad
+	Good Question Example
+	What It Uncovers
+	Hypothetical Fluff
+	"Would you buy a product that did X?"
+	Invites optimistic but baseless "yes" answers. People cannot accurately predict their future behavior.16
+	"Tell me about the last time you dealt with problem X. What did you do to solve it?"
+	Concrete past actions, which serve as evidence of the problem's severity and the user's motivation to solve it.18
+	Leading Question
+	"Don't you think our automated reporting feature is great?"
+	Biases the user toward agreement (acquiescence bias) and seeks compliments, not truth.14
+	"Walk me through your current process for creating reports."
+	The user's actual workflow, including hidden pain points, inefficiencies, and workarounds.21
+	Fishing for Compliments
+	"Do you think this is a good idea?"
+	Generates worthless data. Your mom will always say yes, but that doesn't validate a business.15
+	"What are the biggest challenges you face with [problem area]?"
+	Unprompted problems, which are the most valuable because they are top-of-mind for the user.16
+	Vague Future-Gazing
+	"How much would you pay for a solution like this?"
+	People are notoriously bad at pricing hypothetical products. The answer is a guess, not a commitment.16
+	"How much does this problem currently cost you in time or money? What's your budget for tools that solve this type of problem?"
+	Existing spending habits, budget constraints, and the perceived financial value of solving the problem.16
+	Feature Wishlist
+	"What features would you want in a tool for X?"
+	Produces a laundry list of "nice-to-have" features without context, priority, or underlying motivation.16
+	"You mentioned wanting a dashboard. Why is that important? What would that let you do that you can't do now? How are you coping without it?"
+	The root problem and motivation behind a feature request, which is far more valuable than the request itself.16
+	
+
+Navigating Conversations: Deflecting Compliments and Digging for Commitment
+
+
+Handling the flow of conversation is as important as asking the right questions. Founders must learn to steer away from bad data and push toward meaningful signals of commitment.16
+   * Script for Deflecting Compliments: When a user says, "That's a fantastic idea!" the correct response is to deflect the compliment and pivot back to fact-finding. A good script is: "I really appreciate you saying that, but the idea is still very early. To make sure it's actually useful, could you tell me about how you handle [problem] today?".16
+   * Script for Anchoring Fluff: When a user makes a vague, generic statement like, "I'm always looking for better ways to manage my projects," anchor them to specifics. Respond with: "That's helpful to know. Can you tell me about the last time you tried to find a better way? What did you search for? What tools did you try?".21 This forces them to recall actual behavior.
+   * Script for Digging into Feature Requests: When a user suggests a feature, like, "You should add a calendar integration," resist the urge to simply add it to a list. Dig for the underlying "job" by asking: "Why is a calendar integration important to you? What would that let you do? How does that fit into your day?".21
+The ultimate test of a conversation's value is whether it ends with a commitment to a next step.14 This is where the truth is revealed. A commitment can be financial (a deposit, a pre-order), reputational (an introduction to their boss or other potential customers), or a commitment of time (agreeing to a follow-up pilot). As Fitzpatrick notes, "People stop lying when you ask them for money".16 A conversation without a clear next step is a failure; one that ends with a concrete commitment is a success.
+
+
+Playbook 1.3: The Scrappy Ethnography Guide for Founders
+
+
+
+
+Core Principle: Observation Trumps Conversation
+
+
+Ethnographic research is the practice of studying people in their natural environment to understand their culture, behaviors, and context.23 For a founder, this means observing users as they interact with their problem space. This method is powerful because what people
+do is often a more reliable source of truth than what they say they do.25 A user might claim a process is easy, but observing them sigh, open multiple spreadsheets, and copy-paste data reveals a hidden pain point—and a potential opportunity.26 The goal of scrappy ethnography is to capture the context that makes seemingly irrational behaviors perfectly rational, thereby uncovering the unstated needs that users themselves may not be able to articulate.8
+
+
+Pragmatic Guide to Contextual Inquiry ("Follow-me-home" Study)
+
+
+A contextual inquiry is a one-on-one session where a researcher observes a user performing tasks in their own environment. It is one of the most insightful but resource-intensive methods. This guide adapts it for a founder without a formal research team.26
+   * Step 1: Define Focus & Recruit. Be clear on what you want to learn. Are you trying to understand their entire workflow or one specific task? Recruit 5 to 12 participants from your target segment.27
+   * Step 2: Frame the Session. Use the "apprentice model" to set the right tone.26 Start the session by saying something like: "For the next hour, I want you to be the expert and I'll be your apprentice. My goal is to understand your world. Could you just go about your normal tasks, and I'll watch and ask questions when I get confused?" This framing empowers the user and reduces the feeling of being judged.26
+   * Step 3: Observe and Probe. Watch the user perform the task in their natural setting—their office, their home, etc..30 Take detailed notes, photos, or even a video recording (with explicit permission).31 The key is to ask clarifying questions
+in the moment. When you see them do something interesting or unexpected, ask, "I noticed you just opened a new browser tab. Can you talk me through what you're doing there?".25
+   * Step 4: Summarize and Confirm. At the end of the session, play back your key observations to the user. This serves as a check for your understanding. For example: "It seemed like the most frustrating part of that process was when you had to reconcile the numbers between those two reports. Is that an accurate summary?".26
+   * Step 5: Analyze and Synthesize. After conducting several sessions, use a technique like affinity diagramming to group your observations. Write each observation on a sticky note and group them into themes. This process helps you move from individual anecdotes to identifying overarching patterns and insights across multiple users.23
+
+
+Digital Ethnography: Analyzing User Session Recordings (Hotjar/FullStory)
+
+
+For founders, analyzing session recordings from tools like Hotjar or FullStory is the most scalable and resource-efficient form of ethnographic research.25 It allows for the asynchronous observation of real user behavior on your website or prototype.
+      * Setup: The process begins with a clear goal, such as "understand why users are abandoning the sign-up form".32 Use the tool's filters to isolate relevant recordings. For example, filter for sessions where a user visited the sign-up page but did not reach the "thank you" page.32
+      * The Signal-Finding Checklist: When watching recordings, look for specific behavioral patterns that signal user frustration or confusion. These are the digital equivalents of a user's sigh or furrowed brow.
+      * Rage Clicks: These are repeated, rapid clicks on a button, link, or another element that is not responding as the user expects. This is a direct signal of a broken UI or a deep mismatch between user expectation and system behavior. The user is essentially shouting at the interface, "Do something!".33 The ClassHero case study identified rage clicks on homework links, which revealed an unstated need for teachers to preview content before assigning it.36
+      * U-Turns: This occurs when a user navigates to a new page and then almost immediately clicks the "back" button. This indicates that the page did not deliver on the promise of the link they clicked, or that the content was confusing or irrelevant.37
+      * Mouse Thrashing/Hesitation: Watch for erratic, frantic mouse movements or long pauses where the cursor hovers over multiple options without clicking. This is a strong indicator of user confusion, uncertainty, or cognitive overload. They don't know what to do next.36
+      * Excessive Scrolling: When a user rapidly scrolls up and down a page, it suggests they are searching for information they cannot find, pointing to a problem with information architecture or content hierarchy.
+      * Dead Clicks: These are clicks on non-interactive elements like images, static text, or unlinked icons. This reveals that the user's mental model of how the interface should work does not match the actual design. They expect something to be clickable when it is not.
+      * From Signal to Insight: Use the features within your recording tool, such as highlights, tags, and comments, to document these behavioral signals as you find them.32 Share key clips with your team. The ultimate goal is to connect these observed behaviors (the
+what) to the underlying user frustration or unstated need (the why), providing qualitative context to your quantitative data.
+
+
+Part 2: The Quantitative Validation Engine: Testing Hypotheses with Data
+
+
+This section provides founders with lean, low-budget playbooks to test their core hypotheses with real-world behavioral data. It's about moving from "I think" to "I know" before building the full product.
+
+
+Playbook 2.1: The $500 Smoke Test & Landing Page Validation
+
+
+
+
+Core Principle: Test Demand Before You Build
+
+
+A smoke test is a quick and inexpensive experiment designed to gauge market interest in a product or feature that does not yet exist.38 The most common form involves creating a simple landing page that clearly articulates a value proposition and includes a call-to-action (CTA) to measure user intent. This CTA might ask users to sign up for a waitlist, join a beta program, or even complete a "fake" pre-order process.38 The entire exercise is a form of quantitative validation that tests behavior, not just opinion.41
+The primary objective of a smoke test is not to acquire early customers but to buy data as cheaply and quickly as possible.39 A founder is spending a small budget not to generate revenue, but to learn if a specific value proposition resonates with a specific audience. The "conversion"—be it an email sign-up or a button click—is a signal of interest. The key metric is therefore the cost per signal. This reframes the smoke test from a sales activity into a lean research activity.
+The A-to-Z process for a smoke test is as follows 43:
+         1. Formulate a Hypothesis: Start with a clear, testable hypothesis, such as, "Freelance graphic designers will provide their email address to join a waitlist for an AI-powered portfolio generator.".38
+         2. Design the Experiment: Create a landing page that serves as the testing ground for your hypothesis.43
+         3. Drive Traffic: Use a small, targeted ad budget to send the right audience to the page.43
+         4. Measure & Analyze: Track key metrics to determine if you have achieved the necessary proof of interest.43
+         5. Decide: Based on the data, make an informed decision to iterate on the value proposition, pivot to a different audience, or kill the idea before investing further resources.43
+
+
+The Lean Landing Page Builder's Matrix
+
+
+Choosing the right tool to build your validation landing page is critical for speed and cost-effectiveness. The following table compares three popular options based on their suitability for a resource-constrained founder executing a smoke test.45
+Tool
+	Ideal For
+	Ease of Use
+	Speed to Launch
+	Cost (for validation)
+	Key Validation Feature
+	Carrd
+	The simplest one-page sites, waitlists, and email captures.
+	Extremely simple. Intuitive drag-and-drop interface.
+	Fastest (minutes to hours).
+	Lowest (Pro Lite plan is around $19/year).46
+	Unmatched simplicity and speed for no-frills validation.47
+	Webflow
+	High-fidelity, custom-designed sites that look highly polished, without writing code.
+	Steeper learning curve but exceptionally powerful and flexible.
+	Slower (can take days).
+	Free tier is usable for a single page; paid plans start around $14/month.48
+	Total design freedom to test a more refined and professional concept.45
+	Unbounce
+	Conversion-focused marketers running paid advertising campaigns.
+	Easy-to-use with a focus on conversion-optimized templates.
+	Fast (hours).
+	Highest (starts around $99/month).45
+	Built-in A/B testing and advanced conversion analytics are core to the platform.45
+	For most founders on a tight budget, Carrd offers the best combination of speed, ease of use, and low cost for a basic smoke test.
+
+
+The $100-$500 Media Buying Strategy for Validation
+
+
+A small ad budget can be highly effective for validation if it is deployed with precision. The strategy differs significantly between B2B and B2C audiences.
+         * B2B Validation (Google & LinkedIn - Budget: $250-$500)
+         * Platform Choice: Google Ads is the superior choice for capturing high-intent traffic from users actively searching for a solution.49 LinkedIn Ads excels at targeting based on specific job titles, industries, and company firmographics but can be more expensive.51 For a minimal budget, Google Ads is generally more efficient, provided there is existing search demand for the problem you are solving.50
+         * Google Ads Strategy: Focus on a very small set of high-intent, long-tail keywords. These should be "NonBrand" keywords that include commercial modifiers like "software," "platform," "tool," or "for [industry]" (e.g., "CRM software for startups").53 Use exact and phrase match types to control spending. Crucially, build a robust negative keyword list to filter out irrelevant searches like "free," "jobs," "tutorial," or "example".49
+         * LinkedIn Ads Strategy: If using LinkedIn, focus on a hyper-specific audience with a Sponsored Content ad. For example, target by Job Title ("VP of Marketing"), Industry ("Computer Software"), and Company Size ("51-200 employees"). A small budget cannot support broad awareness campaigns; precision is paramount.51
+         * Ad Copy: The language must be professional and benefit-oriented. Address a clear business pain point and use a direct CTA like "Request a Demo" or "Join the Waitlist".49
+         * B2C Validation (Facebook/Instagram - Budget: $100-$250)
+         * Platform Choice: Meta's platforms (Facebook and Instagram) are ideal for B2C validation. They offer powerful interest and behavioral targeting at a generally lower cost-per-click (CPC) than search ads, making them well-suited for tight budgets.56
+         * Targeting Strategy: Start with a narrowly defined audience. Combine demographic filters (age, location) with 3-5 highly relevant interests (e.g., competing brands, related hobbies, influential publications).58 With a $100 budget, a good approach is to test 2-3 distinct ad sets, each with a $15-$20 daily budget. Use Campaign Budget Optimization (CBO) to allow Meta's algorithm to automatically allocate more spend to the best-performing ad set.59
+         * Creative: The visual is key. Use a single, compelling image or a short, engaging video that clearly demonstrates the product's value proposition.61 The ad copy should be benefit-driven, speak to the user's desires or problems, and have a clear CTA like "Learn More" or "Sign Up".62
+
+
+Smoke Test Case Study Deconstruction
+
+
+Analyzing classic smoke test examples provides a clear model for founders to follow.40
+Company
+	Core Hypothesis
+	"Product" Shown
+	Key Metric
+	Validation Outcome
+	Dropbox
+	Tech-savvy early adopters desire a seamless, "it just works" file-syncing solution and will sign up for a beta to get it.
+	A simple 3-minute explainer video on a landing page. The video demonstrated the intended functionality without any working code.
+	75,000 email sign-ups overnight after being posted on Hacker News.40
+	Overwhelming validation of market demand. It proved the pain point was severe and the proposed solution was highly desirable to a key audience segment.
+	Zappos
+	People are willing to buy shoes online, a high-touch product, if the friction and risk of the experience are removed.
+	Photos of shoes from local shoe stores posted on a basic website. This was a "Concierge MVP" where the founders manually fulfilled orders.40
+	Actual purchase orders. The metric was not just interest, but a commitment to buy.
+	Validated the core business model by proving that customers would transact. It also provided invaluable learning about customer service and logistics.
+	Airbnb
+	Travelers will choose to stay in a stranger's home over a hotel if it is cheaper and more convenient, especially during high-demand events.
+	A simple website with photos of the founders' own apartment available for rent during a design conference in San Francisco. This was a "Wizard of Oz MVP".40
+	Enough bookings to cover the founders' rent for the month.
+	Validated the two-sided marketplace concept by proving that both hosts (themselves) and guests were willing to participate in peer-to-peer lodging.
+	
+
+Playbook 2.2: The Non-Biased Survey Architect
+
+
+
+
+Core Principle: Surveys Quantify, They Don't Discover
+
+
+Surveys are a powerful quantitative tool, but they are frequently misused in early-stage validation. Their primary role is to validate and prioritize problems, needs, and features that have already been discovered through qualitative methods like JTBD interviews.63 Launching a survey without this prior qualitative grounding is a recipe for asking the wrong questions to the wrong people, resulting in biased and unhelpful data.
+The design of a survey is an exercise in neutrality. Every element—from the wording of a question to the design of a rating scale—can subtly nudge a respondent and corrupt the data.20 The goal of the survey architect is to remove their own assumptions and desired outcomes from the instrument entirely. This requires a fundamental shift in mindset from "How can I prove my idea is good?" to "How can I create the most neutral environment for the respondent's true priorities to emerge?"
+         * Checklist for Minimizing Cognitive Bias:
+         * Acquiescence Bias: This is the tendency for respondents to agree with statements. Mitigate this by avoiding simple "yes/no" questions and instead using balanced rating scales and neutrally phrased questions.20
+         * Social Desirability Bias: Respondents may give answers they believe are more socially acceptable. Assure anonymity and frame questions neutrally to avoid any sense of judgment (e.g., "What do you typically do with plastic bottles after use?" instead of "How often do you fail to recycle?").65
+         * Question Order Bias: The order in which questions are presented can influence subsequent answers. Randomize the order of questions and answer choices where appropriate. Grouping related topics together can also help maintain a clear cognitive flow for the respondent.20
+         * Leading Questions: Avoid questions that suggest a "correct" answer. A useful framework for crafting neutral questions is the BRUSO model: Brief, Relevant, Unambiguous, Specific, and Objective.64
+
+
+Template: The Problem Validation Survey
+
+
+This survey template is designed to quantify the severity of a problem that has been identified in qualitative interviews. It helps answer the question: "Is this problem painful enough, and for enough people, to be worth solving?".66
+         * Section 1: Screening & Context.
+         * Goal: Ensure you are surveying your target audience.
+         * Example Questions: "What is your current role?" "How many employees are at your company?" "Which of the following best describes your industry?"
+         * Section 2: Problem Frequency & Trigger.
+         * Goal: Understand how often the problem occurs.
+         * Example Questions: "In a typical week, how often do you perform [task related to the problem]?" (Scale: Daily, A few times a week, Weekly, etc.). "When was the last time you struggled with [problem]?".68
+         * Section 3: Problem Severity.
+         * Goal: Quantify the pain associated with the problem.
+         * Example Questions: "On a scale of 1 (Not at all significant) to 7 (Extremely significant), how significant is [problem] to you?" "What is the hardest part about [task]?".67
+         * Section 4: Current Solutions & Costs.
+         * Goal: Discover if they are already trying to solve the problem (a key validation signal).
+         * Example Questions: "How are you currently solving [problem] today?" (Open text). "How satisfied are you with your current solution?" (Scale). "Roughly how much time do you spend dealing with [problem] each month?".67
+         * Section 5: Problem Ranking (Stack Ranking).
+         * Goal: Understand the problem's priority relative to other problems.
+         * Example Question (using a pair ranking format): "Which of the following challenges is more frustrating for you when it comes to managing team projects?" (Respondents see two challenges at a time and choose one).63
+
+
+Template: The Solution Feature Prioritization Survey (MaxDiff & Kano)
+
+
+Once a problem is validated and a solution is being considered, these survey methods help prioritize which features to build first.
+         * The MaxDiff Method
+         * When to Use: Ideal when you have a list of 10-25 potential features and need to create a clear, force-ranked list of what users value most.69
+         * Question Structure: Respondents are shown small subsets of features (typically 3-5 at a time) and are asked to choose the single "Most Important" and "Least Important" feature from that set.69 This process is repeated with different combinations of features.
+         * Example Question 69:
+
+Please indicate the smart TV feature that would be the most important in your purchase decision and which feature would be the least important.
+| Most Important | Feature | Least Important |
+| :--- | :--- | :--- |
+| ◻️ | 4K UHD streaming | ◻️ |
+| ◻️ | Music streaming | ◻️ |
+| ◻️ | Price | ◻️ |
+| ◻️ | App store | ◻️ |
+| ◻️ | Voice control | ◻️ |
+         * Analysis: A simple analysis involves calculating a preference score for each feature: (Total times chosen as 'Most Important') - (Total times chosen as 'Least Important'). The features with the highest scores are the highest priority.72
+            * The Kano Model Method
+            * When to Use: When you want to go beyond simple ranking and understand how different features impact customer satisfaction, categorizing them into distinct types.73
+            * Question Structure: For each feature, you ask a pair of questions 74:
+            1. Functional Question: "If this product had [feature], how would you feel?"
+            2. Dysfunctional Question: "If this product did NOT have [feature], how would you feel?"
+            * Answer Options (for both questions): 1. I like it, 2. I expect it, 3. I am neutral, 4. I can tolerate it, 5. I dislike it.
+            * Analysis: The paired answers are cross-referenced on a Kano Evaluation Table to classify each feature into one of five categories:
+            * Must-be (Basic): Expected features. Their absence causes dissatisfaction, but their presence doesn't increase satisfaction (e.g., brakes on a car).75
+            * Performance (One-dimensional): The more you have of these, the more satisfied customers are (e.g., phone battery life).75
+            * Attractive (Delighters): Unexpected features that create delight but don't cause dissatisfaction if absent (e.g., a complimentary dessert).76
+            * Indifferent: Features customers don't care about.75
+            * Reverse: Features that cause dissatisfaction when present.75
+            * Prioritization: The strategy is clear: Build all Must-be features, invest heavily in Performance features, and sprinkle in some Attractive features to stand out. Avoid Indifferent and Reverse features entirely.
+
+
+Playbook 2.3: The Founder's Analytics Stack (Google Sheets Edition)
+
+
+
+
+Core Principle: Actionable Metrics > Vanity Metrics
+
+
+For a pre-product-market fit startup, the only metrics that truly matter are those that signal whether the core value proposition is resonating with users and solving their problem. This means focusing relentlessly on retention (are users coming back?) and conversion (are they completing the core workflow?).77 Metrics like total sign-ups or website traffic can be misleading vanity metrics if those users don't stick around or engage meaningfully.
+While sophisticated analytics platforms like Mixpanel and Amplitude offer immense power, the most critical early-stage questions can be answered with a tool every founder already has: Google Sheets.79 By exporting raw user data and using basic spreadsheet functions, any founder can build powerful retention and funnel analyses without needing a dedicated data scientist.77 This democratizes data analysis and removes a common barrier to being data-informed from day one.
+
+
+Tutorial: Retention Cohort Analysis in Google Sheets
+
+
+A cohort analysis groups users by a shared characteristic—typically their sign-up date—and tracks their behavior over time. It is the single most important tool for understanding user retention.
+            * Data Needed: A simple table of user data exported from your database or authentication service. It must contain at a minimum: user_id, signup_date, and last_seen_date (or a log of all activity dates per user).
+            * Steps & Formulas:
+            1. Calculate Cohort & Activity Periods: In your Google Sheet, create new columns.
+            * Cohort Month: Group users by their sign-up month. The formula =EOMONTH(B2, -1)+1 (assuming signup_date is in column B) will normalize all dates to the first of the month.
+            * Months Since Signup: Calculate the time difference between a user's activity and their sign-up cohort. The formula =DATEDIF(C2, D2, "M") (where C is Cohort Month and D is Activity Month) will give you the number of months elapsed.
+            2. Create a Pivot Table: This is the core of the analysis.
+            * Go to Insert > Pivot Table.
+            * Set Rows to your Cohort Month.
+            * Set Columns to Months Since Signup.
+            * Set Values to COUNTA of user_id.
+This will generate a table showing the absolute number of users from each cohort who were active in subsequent months.
+               3. Calculate Retention Percentage: The absolute numbers are useful, but percentages make it easier to compare cohorts. In a new table next to your pivot table, calculate the retention rate for each cell using the formula: (Users active in Month N) / (Total users in that cohort's Month 0).
+               4. Visualize with Conditional Formatting: Select the entire percentage table and go to Format > Conditional formatting. Apply a color scale (e.g., green for high values, red for low values). This creates a heatmap that makes trends instantly visible.81
+               * Interpretation: Look for two key signals in your cohort chart. First, does the retention curve "flatten out" after a few months? A flattening curve indicates you have found a core group of users who are getting long-term value from your product. Second, are newer cohorts (lower rows) retaining better than older cohorts? If so, this is a strong sign that your product improvements are having a positive impact on user retention.78
+
+
+Tutorial: Funnel Analysis in Google Sheets
+
+
+A funnel analysis visualizes the user journey through a series of key steps, highlighting where users drop off. This is essential for identifying and fixing bottlenecks in your core user workflows.
+               * Data Needed: A simple two-column list: Funnel Stage and User Count. For example: "Visited Landing Page", 1000; "Signed Up", 100; "Created First Project", 20.84 This data can be pulled from Google Analytics or your product's database.
+               * Steps to Visualize: Since Google Sheets does not have a native funnel chart type, one must be created using a stacked bar chart.85
+               1. Create a Helper Column: This invisible column will center the bars to create the funnel shape. In the column next to your stages, insert a "helper" column before your user counts. The formula for the helper value is =(MAX($C$2:$C$5)-C2)/2, where column C contains your user counts. This calculates the invisible padding needed for each bar.87
+               2. Insert Stacked Bar Chart: Select all three columns (Stage, Helper, User Count) and go to Insert > Chart. In the Chart Editor, select the Stacked bar chart type.85
+               3. Customize the Chart:
+               * Make the "helper" series transparent by selecting it in the Customize > Series menu and setting its color to "None."
+               * Reverse the vertical axis order to place the widest bar at the top (Customize > Vertical axis > Reverse axis order).
+               * Add data labels to the visible bars to show the user count at each stage.
+               * Clean up the chart by removing the legend and gridlines.82
+               * Interpretation: The primary goal is to identify the biggest drop-off points. Calculate the conversion rate between each step: (Users in Step 2 / Users in Step 1). The step with the lowest conversion rate is the biggest "leak" in your funnel and should be the highest priority for investigation and improvement.84
+
+
+From Data to ICP: Finding Your First True Fans
+
+
+The final step is to close the loop by using this quantitative analysis to refine your understanding of your customer. This process helps you build your first data-informed Ideal Customer Profile (ICP).
+               * Guide to Segmentation: The power of cohort and funnel analysis is magnified when you segment the data. Instead of looking at all users, analyze retention and conversion for different subgroups to see who your best customers are.89
+               * Process:
+               1. Gather User Attributes: Collect basic firmographic data for B2B (industry, company size, user role) or demographic/acquisition data for B2C (acquisition channel, location, plan type) for your early users.89
+               2. Identify Your "Best" Customers: Your best customers are those with the highest retention rates and conversion rates. Analyze your segmented cohort and funnel charts to answer questions like:
+               * "Which acquisition channel brings users who retain the longest?"
+               * "Do users from a specific industry convert through our onboarding funnel at a higher rate?"
+               * "Do small companies retain better than large enterprises?".91
+               3. Build the ICP Version 1.0: Create a simple profile based on the shared attributes of your best customers. This is your first data-informed ICP. It is not a static persona but a dynamic guide for who to target in your next round of marketing and who to prioritize for your next round of qualitative interviews. This creates a powerful feedback loop: qualitative interviews inform quantitative tests, and the analysis of those tests informs the next round of customer acquisition and learning.
+Works cited
+               1. strategyn.com, accessed June 16, 2025, https://strategyn.com/jobs-to-be-done/history-of-jtbd/#:~:text='%20The%20Jobs%2Dto%2Dbe,of%20a%20product%20or%20service.
+               2. Clayton Christensen, Jobs-to-be-Done & Competing Against Luck, Part 1 - Thrv, accessed June 16, 2025, https://www.thrv.com/blog/clayton-christensen-jobs-to-be-done
+               3. Jobs to Be Done Theory and Frameworks Explained: Christensen ..., accessed June 16, 2025, https://gopractice.io/product/jobs-to-be-done-the-theory-and-the-frameworks/
+               4. Jobs to Be Done: 4 Real-World Examples | HBS Online, accessed June 16, 2025, https://online.hbs.edu/blog/post/jobs-to-be-done-examples
+               5. Jobs to Be Done Theory - Christensen Institute, accessed June 16, 2025, https://www.christenseninstitute.org/theory/jobs-to-be-done/
+               6. History of JTBD - Jobs-to-be-Done - Strategyn, accessed June 16, 2025, https://strategyn.com/jobs-to-be-done/history-of-jtbd/
+               7. Bob Moesta & Chris Spiek: Uncovering the Jobs to be Done - Business of Software, accessed June 16, 2025, https://businessofsoftware.org/talks/bob-moesta-and-chris-spiek-uncovering-the-jobs-to-be-done/
+               8. Jobs-to-be-Done: Customer Interviews That Drive Growth - with Bob Moesta [423], accessed June 16, 2025, https://saasclub.io/podcast/jobs-to-be-done-bob-moesta-423/
+               9. What is the Jobs to be Done framework? - The Re-Wired Group, accessed June 16, 2025, https://therewiredgroup.com/learn/complete-guide-jobs-to-be-done/
+               10. The Jobs-to-be-Done Mattress Interview (as seen in Competing ..., accessed June 16, 2025, https://jobstobedone.org/radio/the-mattress-interview-part-one/
+               11. The Ultimate Guide: Jobs to be Done Interviews for Customer Development [with Templates], accessed June 16, 2025, https://valchanova.me/customer-development-jobs-to-be-done/
+               12. Unpacking the Progress Making Forces Diagram | Jobs-to-be-Done - JobsToBeDone.org, accessed June 16, 2025, https://jobstobedone.org/radio/unpacking-the-progress-making-forces-diagram/
+               13. Untitled - Intercom, accessed June 16, 2025, https://www.intercom.com/blog/wp-content/uploads/2016/05/Sian-Townsend-Intercom-Front-conference.pdf
+               14. Book Summary - The Mom Test - Readingraphics, accessed June 16, 2025, https://readingraphics.com/book-summary-the-mom-test/
+               15. The Mom Test: Book Overview and Takeaways - Shortform, accessed June 16, 2025, https://www.shortform.com/blog/the-mom-test-book/
+               16. The Mom Test by Rob Fitzpatrick Book Summary and Notes - Nate Kadlac, accessed June 16, 2025, https://www.kadlac.com/notes/the-mom-test-rob-fitzpatrick
+               17. The Mom Test - Khanna Law, accessed June 16, 2025, https://www.khanna.law/notes/the-mom-test
+               18. The Mom Test: How to Conduct Effective User Research? - TianPan.co, accessed June 16, 2025, https://tianpan.co/notes/2025-04-29-the-mom-test
+               19. The Mom Test : r/Business_Ideas - Reddit, accessed June 16, 2025, https://www.reddit.com/r/Business_Ideas/comments/iukrqo/the_mom_test/
+               20. Cognitive Bias: How Is It Shaping Your Survey Insights? - ChartExpo, accessed June 16, 2025, https://chartexpo.com/blog/cognitive-bias
+               21. The Mom Test - Hi, accessed June 16, 2025, https://www.kevinslin.com/notes/fk95c7tpa4lpmvzmmslub0r/
+               22. The Mom Test for Better Customer Interviews - Looppanel, accessed June 16, 2025, https://www.looppanel.com/blog/customer-interviews
+               23. Ethnography: The powerful tool for UX research, accessed June 16, 2025, https://www.aufaitux.com/blog/ethnography-in-user-research/
+               24. Your personal guide to conduct ethnographic research - Trymata, accessed June 16, 2025, https://trymata.com/blog/your-personal-guide-to-conduct-ethnographic-research/
+               25. Ethnographic Study in UX Research for Startups - FasterCapital, accessed June 16, 2025, https://fastercapital.com/content/Ethnographic-Study-in-UX-Research-for-Startups.html
+               26. Contextual Inquiry · The Real Startup Book by Kromatic, accessed June 16, 2025, https://kromatic.com/real-startup-book/3-generative-market-research/contextual-inquiry
+               27. The Essentials of a Contextual Inquiry - MeasuringU, accessed June 16, 2025, https://measuringu.com/contextual-inquiry/
+               28. How To Run Contextual Inquiries (UX Framework) - UX Playbook, accessed June 16, 2025, https://uxplaybook.org/articles/how-to-run-ux-contextual-inquiries
+               29. Ethnography: UX Research Methods for Discovery - User Interviews, accessed June 16, 2025, https://www.userinterviews.com/ux-research-field-guide-chapter/ethnography
+               30. The Expert's Guide to Contextual Inquiry Interviews - HubSpot Blog, accessed June 16, 2025, https://blog.hubspot.com/service/contextual-inquiry
+               31. What is a contextual inquiry, and how do you run one? - Nulab, accessed June 16, 2025, https://nulab.com/learn/design-and-ux/what-is-a-contextual-inquiry-and-how-do-you-run-one/
+               32. How to Analyze Hotjar Recordings – Hotjar Documentation, accessed June 16, 2025, https://help.hotjar.com/hc/en-us/articles/15992672700951-How-to-Analyze-Hotjar-Recordings
+               33. Hotjar vs. FullStory - Uncovering the Best User Analytics Tool - ONSAAS.ME, accessed June 16, 2025, https://www.onsaas.me/blog/hotjar-vs-fullstory
+               34. Is Fullstory Session Replay Worth It? A Detailed Analysis - Userpilot, accessed June 16, 2025, https://userpilot.com/blog/fullstory-session-replay/
+               35. User Behavior Tracking - Techniques, Tools & Best Practices - UXCam, accessed June 16, 2025, https://uxcam.com/blog/user-behavior-tracking/
+               36. Case studies - Hotjar, accessed June 16, 2025, https://www.hotjar.com/customers/
+               37. Hotjar vs. FullStory: What Sets Them Apart?, accessed June 16, 2025, https://www.hotjar.com/blog/hotjar-vs-fullstory/
+               38. A Simple Guide to Smoke Testing for Product Ideas - Eximius Ventures, accessed June 16, 2025, https://eximiusvc.com/blogs/guide-to-smoke-testing-for-product-ideas/
+               39. Smoke Testing: 5 Steps to Quickly Validate Your Ideas - The Good, accessed June 16, 2025, https://thegood.com/insights/smoke-testing/
+               40. Smoke Test: The Art of Lean Smoke Testing for New Ventures - FasterCapital, accessed June 16, 2025, https://fastercapital.com/content/Smoke-Test--The-Art-of-Lean-Smoke-Testing-for-New-Ventures.html
+               41. Landing Page Smoke Test | GLIDR Help Center, accessed June 16, 2025, https://help.glidr.io/en/articles/1648431-landing-page-smoke-test
+               42. Minimum Viable Sprint Framework: How $100 Tests Can Save You Thousands - CXL, accessed June 16, 2025, https://cxl.com/blog/minimum-viable-sprint-framework/
+               43. Guide to Smoke Testing: How to Evaluate Your Product - CXL, accessed June 16, 2025, https://cxl.com/blog/smoke-test/
+               44. Smoke Tests in Market Research - The Complete Guide - gethorizon.net, accessed June 16, 2025, https://www.gethorizon.net/guides/smoke-tests-in-market-research-the-complete-guide
+               45. High-Converting SaaS Landing Page: Tips & Examples 2025, accessed June 16, 2025, https://www.glorywebs.com/blog/saas-landing-page-best-practices
+               46. What's the easiest, cheapest and fastest way to build a landing page? : r/SaaS - Reddit, accessed June 16, 2025, https://www.reddit.com/r/SaaS/comments/1k6iyi0/whats_the_easiest_cheapest_and_fastest_way_to/
+               47. How to Validate Your App Idea Without Coding | InvoZone, accessed June 16, 2025, https://invozone.com/blog/validate-app-idea-without-coding/
+               48. How to Validate Your SaaS Idea Before You Start Coding - Codelevate, accessed June 16, 2025, https://www.codelevate.com/blog/how-to-validate-your-saas-idea-before-you-start-coding
+               49. 10 Proven B2B Google Ads Strategies to Skyrocket Lead Generation - Ninjapromo, accessed June 16, 2025, https://ninjapromo.io/b2b-google-ads-strategies
+               50. Google Ads Benefits for B2B, accessed June 16, 2025, https://www.factors.ai/guides/google-ads-101/google-ads-benefits
+               51. B2B SaaS LinkedIn Ads Case Studies | 2025 Linkedin Playbook - TripleDart, accessed June 16, 2025, https://www.tripledart.com/abm/linkedin-playbook
+               52. LinkedIn Ads Step by Step: Full Guide for 2023 and Beyond, accessed June 16, 2025, https://nomadicsoftware.com/blog/linkedin-ads-step-by-step-2/
+               53. How to Create a Winning Google Ads Budget Strategy for B2B SaaS - AdConversion, accessed June 16, 2025, https://www.adconversion.com/blog/google-ads-budget
+               54. Best Practices for Google Ads B2B Targeting - ER Marketing, accessed June 16, 2025, https://ermarketing.net/navigate-the-channel/best-practices-for-google-ads-b2b-targeting/
+               55. Google Ads in B2B Marketing: Full-Funnel Strategies, Optimization and Conversion Tips, accessed June 16, 2025, https://kotzabasis.com/google-ads-in-b2b-marketing-full-funnel-strategies-optimization-and-conversion-tips/
+               56. Budget Allocation: When To Choose Google Ads Vs. Meta Ads - Search Engine Journal, accessed June 16, 2025, https://www.searchenginejournal.com/budget-allocation-when-to-choose-google-ads-vs-meta-ads/542850/
+               57. ELI5: With $100 for Facebook Ads and a landing page, how do I get the most traction to validate my idea? : r/startups - Reddit, accessed June 16, 2025, https://www.reddit.com/r/startups/comments/5ycajg/eli5_with_100_for_facebook_ads_and_a_landing_page/
+               58. 8 Best Lead Gen Strategies for B2C and D2C Companies, accessed June 16, 2025, https://deliberatedirections.com/best-lead-gen-strategies-for-b2c-and-d2c-companies/
+               59. Get More Bang for Your Buck: Facebook Ads Budget Optimization, accessed June 16, 2025, https://www.socialsellinator.com/social-selling-blog/facebook-ads-budget-optimization
+               60. 2019 Called, It Wants Its Facebook Campaign Budget Optimization Back - SocialSellinator, accessed June 16, 2025, https://www.socialsellinator.com/social-selling-blog/facebook-campaign-budget-optimization-2019
+               61. 10 B2C Facebook Ads Deconstructed | VYPER - Giveaway & Contest Builder, accessed June 16, 2025, https://vyper.ai/blog/10-b2c-facebook-ads-deconstructed/
+               62. How To Use Pre-Launch Landing Pages To Market New Products - Apexure, accessed June 16, 2025, https://www.apexure.com/blog/using-a-pre-launch-landing-page-to-market-your-upcoming-products
+               63. How To Validate New Product Ideas (The Data-Driven, No-Bullshit Way) - OpinionX, accessed June 16, 2025, https://www.opinionx.co/blog/idea-validation
+               64. Survey Design Psychology: Hidden Biases That Affect Your ..., accessed June 16, 2025, https://surveysparrow.com/blog/survey-design-psychology/
+               65. ‍How to reduce bias in user research and surveys?‍ - CleverX, accessed June 16, 2025, https://cleverx.com/blog/how-to-reduce-bias-in-user-research-and-surveys
+               66. Feature Ideas Validation Template | Maze, accessed June 16, 2025, https://maze.co/templates/validate-feature-ideas/
+               67. Sample Market Validation Questions - JumpStart Inc., accessed June 16, 2025, https://www.jumpstartinc.org/wp-content/uploads/2020/09/er_sample-market-validation-qs_1c.pdf
+               68. : Validate the problem - Learning Loop, accessed June 16, 2025, https://learningloop.io/playbooks/validating-the-problem
+               69. How to prioritize features using MaxDiff analysis - SurveyMonkey, accessed June 16, 2025, https://www.surveymonkey.com/market-research/resources/prioritize-features/
+               70. Feature Prioritization Surveys - Everything You Need to Know, accessed June 16, 2025, https://userguiding.com/blog/feature-prioritization-surveys
+               71. How to Use MaxDiff Survey Analysis for Feature Prioritization - Bentley University, accessed June 16, 2025, https://www.bentley.edu/centers/user-experience-center/how-use-max-diff-survey-analysis-feature-prioritization
+               72. Ultimate Guide to MaxDiff Analysis: Examples, Methods, Tools - OpinionX, accessed June 16, 2025, https://www.opinionx.co/blog/maxdiff-analysis
+               73. Asking ChatGPT for advice about research methods – a Kano example #AI Tip - NewMR, accessed June 16, 2025, https://newmr.org/blog/asking-chatgpt-for-advice-about-research-methods-a-kano-example-ai-tip/
+               74. Kano Model: Elevating Customer Satisfaction Through Market Research - resonio, accessed June 16, 2025, https://www.resonio.com/market-research/kano-model/
+               75. The Kano Model: Free Template to Boost Customer Satisfaction, accessed June 16, 2025, https://www.designwithvalue.com/the-kano-model
+               76. Kano Model Explained: How It Works + Examples & Free Template - Chisel Labs, accessed June 16, 2025, https://chisellabs.com/blog/kano-model/
+               77. COHORT ANALYSIS, CHURN, AND RETENTION WITH GOOGLE SPREADSHEET - UrBizEdge Limited, accessed June 16, 2025, https://urbizedge.com/cohort-analysis-churn-and-retention-with-google-spreadsheet-%F0%9F%8E%89/
+               78. Create a Retention Curve with Mixpanel and Google Sheets - Thoughtbot, accessed June 16, 2025, https://thoughtbot.com/blog/create-a-retention-curve-with-mixpanel-and-google-sheets
+               79. Retention: Measure engagement over time - Mixpanel Docs, accessed June 16, 2025, https://docs.mixpanel.com/docs/reports/retention
+               80. What Is Funnel Analysis? Definition, Examples, and Tools - Amplitude, accessed June 16, 2025, https://amplitude.com/blog/funnel-analysis
+               81. [SQL Extension] Generate cohort retention charts with SQL and Google Sheets - Reforge, accessed June 16, 2025, https://www.reforge.com/guides/sql-extension-generate-cohort-retention-charts-with-sql-and-google-sheets
+               82. How to Make a Funnel Chart in Google Sheets - Business Computer ..., accessed June 16, 2025, https://www.businesscomputerskills.com/tutorials/google/how-to-make-a-funnel-chart-in-google-sheets.php
+               83. Cohort Analysis Templates and Examples - Reforge, accessed June 16, 2025, https://www.reforge.com/artifacts/c/data-analysis/cohort-analysis
+               84. How to Create a Funnel in Google Sheets - Bricks, accessed June 16, 2025, https://www.thebricks.com/resources/guide-how-to-create-a-funnel-in-google-sheets
+               85. How to Create a Funnel in Google Sheets using ChatGPT - Bricks, accessed June 16, 2025, https://www.thebricks.com/resources/guide-how-to-create-a-funnel-in-google-sheets-using-chatgpt
+               86. Funnel Charts: The Ultimate Guide - wpDataTables, accessed June 16, 2025, https://wpdatatables.com/funnel-charts/
+               87. Funnel Charts Explained (Complete Guide) | Layer Blog, accessed June 16, 2025, https://golayer.io/blog/google-sheets/funnel-chart/
+               88. How to Create a Sales Funnel in Google Sheets - Bricks, accessed June 16, 2025, https://www.thebricks.com/resources/how-to-create-a-sales-funnel-in-google-sheets
+               89. The Ultimate Ideal Customer Profile Google Sheets Template, accessed June 16, 2025, https://sapiengraph.com/blog/ideal-customer-profile-template/
+               90. 4-Step Ideal Customer Profile Blueprint with Actionable Data - Skylead, accessed June 16, 2025, https://skylead.io/blog/ideal-customer-profile/
+               91. Ideal Customer Profile (ICP) Template, accessed June 16, 2025, https://www.growthbusinesstemplates.com/product/ideal-customer-profile-template
